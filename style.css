@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    nav{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        border: 1px solid gray;
+      
+      
+    }
+    .text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left:40px ;
+    /* justify-content:space-between; */
+    
+    }
+    .btn :last-child {
+      background-color:rgb(255, 0, 166);
+      border-radius:6px ;
+      height: 30px;
+      width: 70px;
+    }
+    .text ul li{
+        margin-left:60px; 
+        justify-content:space-between;
+    
+    }
+    .btn{
+      margin-right: 15px;  }
+
+.container{
+width: 100%;
+height: 100vh;
+/* background-color: brown; */
+/* display: flex;
+justify-content: center;
+justify-content: space-between; */
+
+}
+.love{
+width: 100%;
+height: 90px ;
+display: flex;
+justify-content: space-between;
+/* background-color: aqua; */
+}
+.tittle{
+width: 350px;
+height: 80px;
+/* background-color: darkcyan; */
+margin-left: 150px;
+margin-top:20px ;
+}
+.tittle h2,h4{
+    margin-left:20px ;
+}
+.but{
+width: 150px;
+height: 50px;
+/* background-color: aquamarine; */
+margin-top: 20px;
+}
+.but button{
+   width: 70px; 
+   height: 40px;
+   border: 2px solid grey;
+   border-radius: 8px;
+   
+}
+.but :last-child{
+    background-color:palevioletred ;
+}
+.vishu{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+
+
+}
+.vishu img{
+   width: 130%; 
+   height:100vh ;
+   margin-left: 30px;
+}
+.icon{
+  width: 20%;  
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+
+}
+.icon i{
+    margin: 20px;
+    margin-left:120px ;
+   font-size:x-large;
+}
